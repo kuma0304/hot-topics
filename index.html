@@ -1,1 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Topics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="wrapper">
+            <div class="header">
+                <div class="site-logo">
+                    <a href="#" class="company-name"><span class="text-primary">Hot</span>Topics</a>
+                </div>
+                <div class="navigation">
+                    <nav>
+                        <div class="site-menu">
+                            <div class="close-menu">
+                                <a href="#" onclick="responsiveMenuOff()">
+                                    <i class="fa-solid fa-x"></i>
+                                </a>
+                            </div>
+                            <ul>
+                                <li><a href="./partials/home.html" class="nav-link">Home</a></li>
+                                <li><a href="./partials/portfolio.html" class="nav-link">Portfolio</a></li>
+                            </ul>
+                        </div>
+                        <div class="nav-icons">
+                            <div class="hamburger">
+                                <a href="#" onclick="responsiveMenuOn()">
+                                    <i class="fa-solid fa-bars"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="main-hero">
+        <div class="wrapper">
+            <h1 class="hero-head">Hot Topics You'll Love</h1>
+            <p class="hero-desc text-body">Fresh reads, trending insights, and what’s buzzing now</p>
+            <div class="space-top-1">
+                <a href="#" class="site-button">Read Articles</a>
+            </div>
+        </div>
+    </div>
+
+    <main class="main-content wrapper space-top-4 space-bottom-4" id="content">
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer">
+            <h3 class="footer-heading">Hot Topics Inc.</h3>
+            <p class="footer-description">123 New Street, Ottawa, ON</p>
+            <p class="footer-description">Phone: (123) 456-1234</p>
+            <div class="footer-icons">
+                <a href="#" class="footer-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="footer-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="footer-icon"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#" class="footer-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/bf9d4bbbeb.js" crossorigin="anonymous"></script>
+
+    <!-- Theme JS -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
